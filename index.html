@@ -6,11 +6,12 @@
   <title>Tiisetso P N Tema - Portfolio</title>
   <style>
     body { font-family: 'Lato', sans-serif; margin: 0; background: #f4f6f9; color: #333; }
-    header { background: linear-gradient(135deg, #002147, #004080); color: white; text-align: center; padding: 60px 20px; }
-    header img { width: 150px; border-radius: 50%; border: 4px solid white; margin-bottom: 20px; }
+    header { background: linear-gradient(135deg, #002147, #004080); color: white; padding: 60px 20px; }
+    header .hero { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 30px; }
+    header img { width: 200px; border-radius: 50%; border: 4px solid white; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
     header h1 { margin: 0; font-size: 2.5em; }
     header p { font-size: 1.2em; margin-top: 10px; }
-    .btn { display: inline-block; padding: 10px 20px; background: #ffcc00; color: #002147; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 10px; }
+    .btn { display: inline-block; padding: 10px 20px; background: #ffcc00; color: #002147; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 10px 5px; }
     nav { background: #004080; text-align: center; padding: 15px; }
     nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
     section { max-width: 1000px; margin: auto; padding: 40px 20px; }
@@ -27,32 +28,71 @@
 </head>
 <body>
   <header>
-    <img src="your-photo.jpg" alt="Tiisetso Ntema">
-    <h1>Tiisetso Perseverance Ntema</h1>
-    <p>Accounting Sciences Graduate | Aspiring Finance Professional</p>
-    <a href="TiisetsoPNtema.pdf" class="btn">📄 Download Resume</a>
-    <a href="https://linkedin.com/in/tiisetso" class="btn">🔗 Connect on LinkedIn</a>
+    <div class="hero">
+      <img src="tiisetso-profile.jpg" alt="Tiisetso Ntema">
+      <div>
+        <h1>Tiisetso Perseverance Ntema</h1>
+        <p>Accounting Sciences Graduate | Aspiring Finance Professional</p>
+        <a href="TiisetsoPNtema.pdf" class="btn">📄 Download Resume</a>
+        <a href="https://linkedin.com/in/tiisetso" class="btn">🔗 Connect on LinkedIn</a>
+      </div>
+    </div>
   </header>
 
   <nav>
-    <a href="#about">About</a>
+    <a href="#objective">Career Objective</a>
     <a href="#education">Education</a>
     <a href="#skills">Skills</a>
     <a href="#certificates">Certificates</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a final-year Bachelor of Accounting Sciences student at UNISA with a strong academic foundation in financial accounting and administration. I am eager to apply my knowledge in a professional setting, bringing dedication, adaptability, and a commitment to learning.</p>
+  <section id="objective">
+    <h2>Career Objective</h2>
+    <p>Motivated and detail-oriented Accounting Sciences student with a strong academic foundation and proven adaptability. My goal is to contribute to a professional finance or banking team, applying my knowledge in auditing, taxation, and financial reporting while continuously developing practical expertise.</p>
   </section>
 
   <section id="education">
     <h2>Education</h2>
     <ul>
-      <li>Bachelor of Accounting Sciences (Financial Accounting) – UNISA (Expected 2026)</li>
-      <li>Higher Certificate in Accounting Sciences – UNISA (2021)</li>
-      <li>National Senior Certificate – Academy for Christian Education (2013)</li>
+      <li><strong>Bachelor of Accounting Sciences (Financial Accounting)</strong> – UNISA (Expected 2026)
+        <p>Majors:</p>
+        <ul>
+          <li>AIN3701 – Automation and Data Analysis</li>
+          <li>AUE3761 – The Audit Process</li>
+          <li>CAS3701 – Capstone in Accounting Sciences</li>
+          <li>FAC3764 – Financial Accounting</li>
+          <li>MAC3761 – Management Accounting III</li>
+          <li>TAX3761 – Taxation of Business Activities and Individuals</li>
+        </ul>
+      </li>
+      <li><strong>Higher Certificate in Accounting Sciences</strong> – UNISA (2021)
+        <p>Modules:</p>
+        <ul>
+          <li>AUE1501 – Introduction to Auditing</li>
+          <li>BNU1501 – Basic Numeracy</li>
+          <li>CAS1501 – Perspectives on Accountancy</li>
+          <li>CLA1503 – Commercial Law IC</li>
+          <li>ENG1504 – Practising Workplace English</li>
+          <li>FAC1501 – Introductory Financial Accounting</li>
+          <li>FAC1502 – Financial Accounting Principles, Concepts and Procedures</li>
+          <li>MAC1501 – Introduction to Management Accounting</li>
+          <li>MNB1501 – Business Management IA</li>
+          <li>TAX1501 – Taxation of Salaried Persons</li>
+        </ul>
+      </li>
+      <li><strong>National Senior Certificate</strong> – Academy for Christian Education (2013)
+        <p>Subjects:</p>
+        <ul>
+          <li>English (Home Language)</li>
+          <li>Afrikaans (First Additional Language)</li>
+          <li>Mathematical Literacy</li>
+          <li>Business Studies</li>
+          <li>Computer Applications Technology</li>
+          <li>Tourism</li>
+          <li>Life Orientation</li>
+        </ul>
+      </li>
     </ul>
   </section>
 
@@ -60,7 +100,7 @@
     <h2>Skills</h2>
     <div class="grid">
       <div class="card">📊 Analytical Thinking</div>
-      <div class="card">💼 Financial Reporting Basics</div>
+      <div class="card">💼 Financial Reporting</div>
       <div class="card">🖥️ Microsoft Excel & Accounting Software</div>
       <div class="card">🤝 Communication & Teamwork</div>
       <div class="card">⚡ Problem-Solving & Adaptability</div>
